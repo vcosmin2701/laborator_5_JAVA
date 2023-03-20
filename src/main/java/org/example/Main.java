@@ -2,6 +2,9 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Calculator c = new Calculator(4);
+        c.multiply(3);
+        c.division(2);
+        System.out.println("Result: " + c.getResult());
     }
 }
